@@ -1,0 +1,75 @@
+﻿@model Inwentarz.Models.Zwierze
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Zwierze</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ZwierzeId" />
+            <div class="form-group">
+                <label asp-for="Imie" class="control-label"></label>
+                <input asp-for="Imie" class="form-control" />
+                <span asp-validation-for="Imie" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gatunek" class="control-label"></label>
+                <input asp-for="Gatunek" class="form-control" />
+                <span asp-validation-for="Gatunek" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rasa" class="control-label"></label>
+                <select asp-for="Rasa" class="form-control" asp-items="ViewBag.Rasa"></select>
+                <span asp-validation-for="Rasa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataUrodzenia" class="control-label"></label>
+                <input asp-for="DataUrodzenia" class="form-control" />
+                <span asp-validation-for="DataUrodzenia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Plec" class="control-label"></label>
+                <input asp-for="Plec" class="form-control" />
+                <span asp-validation-for="Plec" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PrzyjazdData" class="control-label"></label>
+                <input asp-for="PrzyjazdData" class="form-control" />
+                <span asp-validation-for="PrzyjazdData" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Waga" class="control-label"></label>
+                <input asp-for="Waga" class="form-control" />
+                <span asp-validation-for="Waga" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StatusZdrowotny" class="control-label"></label>
+                <input asp-for="StatusZdrowotny" class="form-control" />
+                <span asp-validation-for="StatusZdrowotny" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OpiekunId" class="control-label"></label>
+                <select asp-for="OpiekunId" class="form-control" asp-items="ViewBag.OpiekunId"></select>
+                <span asp-validation-for="OpiekunId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

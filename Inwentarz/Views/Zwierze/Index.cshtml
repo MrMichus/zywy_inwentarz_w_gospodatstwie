@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Inwentarz.Models.Zwierze>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Lista Zwierząt</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Dodaj nowe zwierzę</a>
+</p>
+
+<!-- 📌 FORMULARZ FILTROWANIA -->
+<form asp-action="Index" method="get" class="mb-3">
+    <div class="row">
+        <div class="col-md-4">
+            <label for="gatunekFilter" class="form-label">Filtruj po gatunku:</label>
+            <input type="text" name="gatunekFilter" value="@Context.Request.Query["gatunekFilter"]" class="form-control" placeholder="Wpisz gatunek...">
+        </div>
+        <div class="col-md-4 d-flex align-items-end">
+            <button type="submit" class="btn btn-success">Filtruj</button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">Resetuj</a>
+        </div>
+    </div>
+</form>
+
+<!-- 📌 TABELA Z SORTOWANIEM -->
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["SortByName"]" asp-route-gatunekFilter="@Context.Request.Query["gatunekFilter"]">
+                    @Html.DisplayNameFor(model => model.Imie) ⬍
+                </a>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gatunek)
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["SortByBirthDate"]" asp-route-gatunekFilter="@Context.Request.Query["gatunekFilter"]">
+                    @Html.DisplayNameFor(model => model.DataUrodzenia) ⬍
+                </a>
+            </th>
+            <th>@Html.DisplayNameFor(model => model.Plec)</th>
+            <th>@Html.DisplayNameFor(model => model.PrzyjazdData)</th>
+            <th>@Html.DisplayNameFor(model => model.Waga)</th>
+            <th>@Html.DisplayNameFor(model => model.StatusZdrowotny)</th>
+            <th>@Html.DisplayNameFor(model => model.RasaObj)</th>
+            <th>@Html.DisplayNameFor(model => model.Pracownik)</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Imie)</td>
+                <td>@Html.DisplayFor(modelItem => item.Gatunek)</td>
+                <td>@Html.DisplayFor(modelItem => item.DataUrodzenia)</td>
+                <td>@Html.DisplayFor(modelItem => item.Plec)</td>
+                <td>@Html.DisplayFor(modelItem => item.PrzyjazdData)</td>
+                <td>@Html.DisplayFor(modelItem => item.Waga)</td>
+                <td>@Html.DisplayFor(modelItem => item.StatusZdrowotny)</td>
+                <td>@Html.DisplayFor(modelItem => item.RasaObj.Gatunek)</td>
+                <td>@Html.DisplayFor(modelItem => item.Pracownik.Imie)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ZwierzeId" class="btn btn-warning btn-sm">Edytuj</a> |
+                    <a asp-action="Details" asp-route-id="@item.ZwierzeId" class="btn btn-info btn-sm">Szczegóły</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ZwierzeId" class="btn btn-danger btn-sm">Usuń</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

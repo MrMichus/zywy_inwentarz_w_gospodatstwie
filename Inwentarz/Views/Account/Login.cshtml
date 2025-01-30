@@ -1,0 +1,43 @@
+﻿@model Inwentarz.ViewModels.LoginViewModel
+
+<div class="login-container" style="display: flex; justify-content: center; align-items: center; height: 100vh; background: linear-gradient(135deg, #f0f4f8, #d9e8ff);">
+    <div class="login-card" style="width: 100%; max-width: 360px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <h2 style="text-align: center; margin-bottom: 15px; font-size: 1.5rem; color: #333;">Zaloguj się</h2>
+
+        <form asp-action="Login" method="post">
+            <!-- Pole Email -->
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label asp-for="Email" style="font-size: 0.8rem; color: #555;">Email</label>
+                <input asp-for="Email" type="email" class="form-control" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; background: #f9f9f9; font-size: 0.9rem;" />
+            </div>
+
+            <!-- Pole Password -->
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label asp-for="Password" style="font-size: 0.8rem; color: #555;">Hasło</label>
+                <input asp-for="Password" type="password" class="form-control" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; background: #f9f9f9; font-size: 0.9rem;" />
+            </div>
+
+            <!-- Walidacja błędów -->
+            <div class="form-group" style="margin-bottom: 15px; text-align: center;">
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <p style="color: red; font-size: 0.8rem;">Błędny login lub hasło.</p>
+                }
+            </div>
+
+            <!-- Przycisk Login -->
+            <div style="text-align: center; margin-bottom: 10px;">
+                <button type="submit" style="background-color: #4caf50; color: white; padding: 10px 20px; border: none; border-radius: 6px; font-size: 0.9rem; cursor: pointer; transition: background-color 0.3s;">
+                    Zaloguj się
+                </button>
+            </div>
+        </form>
+
+        <!-- Przycisk Zarejestruj się -->
+        <div style="text-align: center; margin-top: 10px;">
+            <a asp-controller="Account" asp-action="Register" style="color: #4caf50; text-decoration: none; font-size: 0.9rem; font-weight: bold;">
+                Zarejestruj się
+            </a>
+        </div>
+    </div>
+</div>

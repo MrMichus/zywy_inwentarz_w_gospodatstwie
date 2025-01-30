@@ -1,0 +1,37 @@
+﻿@model Inwentarz.Models.PlanZywieniowy
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>PlanZywieniowy</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PoraKarmienia)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PoraKarmienia)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RodzajPaszy)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RodzajPaszy)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Ilosc)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ilosc)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.KarmienieId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

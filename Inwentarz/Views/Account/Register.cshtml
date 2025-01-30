@@ -1,0 +1,60 @@
+﻿@model Inwentarz.ViewModels.RegisterViewModel
+
+<div class="register-container" style="display: flex; justify-content: center; align-items: center; height: 100vh; background: linear-gradient(135deg, #f0f4f8, #d9e8ff);">
+    <div class="register-card" style="width: 100%; max-width: 360px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <h2 style="text-align: center; margin-bottom: 15px; font-size: 1.5rem; color: #333;">Zarejestruj się</h2>
+
+        <form asp-action="Register" method="post">
+            <!-- Podsumowanie błędów -->
+            <div asp-validation-summary="All" class="text-danger" style="margin-bottom: 15px; text-align: center; font-size: 0.8rem;"></div>
+
+            <!-- Pole Email -->
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label asp-for="Email" style="font-size: 0.8rem; color: #555;">Email</label>
+                <input asp-for="Email" type="email" class="form-control" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; background: #f9f9f9; font-size: 0.9rem;" />
+            </div>
+
+            <!-- Pole Password -->
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label asp-for="Password" style="font-size: 0.8rem; color: #555;">Hasło</label>
+                <input asp-for="Password" type="password" class="form-control" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; background: #f9f9f9; font-size: 0.9rem;" />
+                <span asp-validation-for="Password" class="text-danger" style="font-size: 0.7rem;"></span>
+            </div>
+
+            <!-- Pole ConfirmPassword -->
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label asp-for="ConfirmPassword" style="font-size: 0.8rem; color: #555;">Potwierdź hasło</label>
+                <input asp-for="ConfirmPassword" type="password" class="form-control" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; background: #f9f9f9; font-size: 0.9rem;" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger" style="font-size: 0.7rem;"></span>
+            </div>
+
+            <!-- Pole Imię -->
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label asp-for="Imie" style="font-size: 0.8rem; color: #555;">Imię</label>
+                <input asp-for="Imie" class="form-control" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; background: #f9f9f9; font-size: 0.9rem;" />
+                <span asp-validation-for="Imie" class="text-danger" style="font-size: 0.7rem;"></span>
+            </div>
+
+            <!-- Pole Nazwisko -->
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label asp-for="Nazwisko" style="font-size: 0.8rem; color: #555;">Nazwisko</label>
+                <input asp-for="Nazwisko" class="form-control" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; background: #f9f9f9; font-size: 0.9rem;" />
+                <span asp-validation-for="Nazwisko" class="text-danger" style="font-size: 0.7rem;"></span>
+            </div>
+
+            <!-- Pole PhoneNumber -->
+            <div class="form-group" style="margin-bottom: 15px;">
+                <label asp-for="PhoneNumber" style="font-size: 0.8rem; color: #555;">Numer telefonu</label>
+                <input asp-for="PhoneNumber" type="tel" class="form-control" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; background: #f9f9f9; font-size: 0.9rem;" />
+                <span asp-validation-for="PhoneNumber" class="text-danger" style="font-size: 0.7rem;"></span>
+            </div>
+
+            <!-- Przycisk Rejestracji -->
+            <div style="text-align: center; margin-top: 10px;">
+                <button type="submit" style="background-color: #4caf50; color: white; padding: 10px 20px; border: none; border-radius: 6px; font-size: 0.9rem; cursor: pointer; transition: background-color 0.3s;">
+                    Zarejestruj się
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

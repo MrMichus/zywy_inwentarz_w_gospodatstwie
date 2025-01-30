@@ -1,0 +1,209 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Inwentarz
+build_property.RootNamespace = Inwentarz
+build_property.ProjectDir = C:\Users\Dell\Desktop\Inwentarz\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Dell\Desktop\Inwentarz
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/HistoriaZdrowotna/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFaZHJvd290bmFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/HistoriaZdrowotna/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFaZHJvd290bmFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/HistoriaZdrowotna/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFaZHJvd290bmFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/HistoriaZdrowotna/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFaZHJvd290bmFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/HistoriaZdrowotna/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWFaZHJvd290bmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/PlanZywieniowie/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhblp5d2llbmlvd2llXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/PlanZywieniowie/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhblp5d2llbmlvd2llXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/PlanZywieniowie/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhblp5d2llbmlvd2llXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/PlanZywieniowie/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhblp5d2llbmlvd2llXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/PlanZywieniowie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhblp5d2llbmlvd2llXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Pracownik/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY293bmlrXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Pracownik/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY293bmlrXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Pracownik/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY293bmlrXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Pracownik/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY293bmlrXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Pracownik/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY293bmlrXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Rasa/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFzYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Rasa/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFzYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Rasa/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFzYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Rasa/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFzYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Rasa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFzYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Test/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Test/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Test/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Test/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Test/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/ZabiegWeterynaryjnie/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFiaWVnV2V0ZXJ5bmFyeWpuaWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/ZabiegWeterynaryjnie/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFiaWVnV2V0ZXJ5bmFyeWpuaWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/ZabiegWeterynaryjnie/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFiaWVnV2V0ZXJ5bmFyeWpuaWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/ZabiegWeterynaryjnie/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFiaWVnV2V0ZXJ5bmFyeWpuaWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/ZabiegWeterynaryjnie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFiaWVnV2V0ZXJ5bmFyeWpuaWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Zwierze/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWndpZXJ6ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Zwierze/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWndpZXJ6ZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Zwierze/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWndpZXJ6ZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Zwierze/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWndpZXJ6ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Zwierze/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWndpZXJ6ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Inwentarz/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4rivg0rp1u

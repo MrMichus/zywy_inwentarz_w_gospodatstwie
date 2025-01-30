@@ -1,0 +1,76 @@
+﻿@model Inwentarz.Models.Zwierze
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Zwierze</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Imie)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Imie)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Gatunek)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Gatunek)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DataUrodzenia)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DataUrodzenia)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Plec)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Plec)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PrzyjazdData)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PrzyjazdData)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Waga)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Waga)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StatusZdrowotny)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StatusZdrowotny)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RasaObj)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RasaObj.Gatunek)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pracownik)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pracownik.Imie)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ZwierzeId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
